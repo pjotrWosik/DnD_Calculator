@@ -6,4 +6,3 @@ player01 = Barbarian(s=16, z=14, k=14, i=8, m=10, c=10, ch_lvl=5, subclass="bers
 player01.print_features()
 
 print()
-Barbarian

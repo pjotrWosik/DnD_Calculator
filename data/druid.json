@@ -1,26 +1,104 @@
 {
   "source_url": "https://bg3.wiki/wiki/Druid",
   "druid": [
-    { "name": "Wild Shape", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Wild Shape (Combat/Forms)", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Land's Stride", "ch_lvl": 6, "lvl": null, "type": "skill" },
-    { "name": "Timeless Body", "ch_lvl": 18, "lvl": null, "type": "skill" }
+    {
+      "name": "Wild Shape",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "bonus_action"
+    },
+    {
+      "name": "Wild Shape (Combat/Forms)",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Land's Stride",
+      "ch_lvl": 6,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Timeless Body",
+      "ch_lvl": 18,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    }
   ],
   "subclasses": {
     "circle_of_the_land": [
-      { "name": "Natural Recovery", "ch_lvl": 2, "lvl": null, "type": "skill" },
-      { "name": "Land's Stride: Difficult Terrain", "ch_lvl": 6, "lvl": null, "type": "skill" }
+      {
+        "name": "Natural Recovery",
+        "ch_lvl": 2,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Land's Stride: Difficult Terrain",
+        "ch_lvl": 6,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "circle_of_the_moon": [
-      { "name": "Lunar Mend", "ch_lvl": 2, "lvl": null, "type": "skill" },
-      { "name": "Combat Wild Shape", "ch_lvl": 2, "lvl": null, "type": "skill" },
-      { "name": "Primal Strike", "ch_lvl": 6, "lvl": null, "type": "skill" }
+      {
+        "name": "Lunar Mend",
+        "ch_lvl": 2,
+        "lvl": null,
+        "type": "skill",
+        "activity": "bonus_action"
+      },
+      {
+        "name": "Combat Wild Shape",
+        "ch_lvl": 2,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Primal Strike",
+        "ch_lvl": 6,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "circle_of_spores": [
-      { "name": "Halo of Spores", "ch_lvl": 2, "lvl": null, "type": "skill" },
-      { "name": "Symbiotic Entity", "ch_lvl": 2, "lvl": null, "type": "skill" },
-      { "name": "Fungal Infestation", "ch_lvl": 6, "lvl": null, "type": "skill" },
-      { "name": "Spreading Spores", "ch_lvl": 10, "lvl": null, "type": "skill" }
+      {
+        "name": "Halo of Spores",
+        "ch_lvl": 2,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Symbiotic Entity",
+        "ch_lvl": 2,
+        "lvl": null,
+        "type": "skill",
+        "activity": "bonus_action"
+      },
+      {
+        "name": "Fungal Infestation",
+        "ch_lvl": 6,
+        "lvl": null,
+        "type": "skill",
+        "activity": "reaction"
+      },
+      {
+        "name": "Spreading Spores",
+        "ch_lvl": 10,
+        "lvl": null,
+        "type": "skill",
+        "activity": "bonus_action"
+      }
     ]
   }
 }

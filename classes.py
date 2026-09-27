@@ -32,6 +32,18 @@ HIT_DICE = {
     "wizard": 6,
 }
 
+# Główna statystyka castowania zaklęć per klasa (atrybut Postac: s/z/k/i/m/c)
+CASTING_ABILITY = {
+    "bard": "c",
+    "cleric": "m",
+    "druid": "m",
+    "paladin": "c",
+    "ranger": "m",
+    "sorcerer": "c",
+    "warlock": "c",
+    "wizard": "i",
+}
+
 
 class Postac:
     """Klasa bazowa dla wszystkich klas postaci (Barbarian, Monk, itd.)."""
@@ -91,6 +103,51 @@ class Postac:
             level += 1
 
         return hp
+
+    # ---------- Bonus biegłości, atak, AC, DC ----------
+
+    def get_proficiency_bonus(self):
+        """Standardowy bonus biegłości D&D wg poziomu (2 na lvl 1-4, 3 na 5-8, itd.)."""
+        return 2 + (self.ch_lvl - 1) // 4
+
+    def get_ac(self):
+        """
+        AC bez pancerza (brak jeszcze danych o ekwipunku):
+        - Barbarian / Monk mają Unarmoured Defence -> DEX + KON / DEX + MDR
+        - reszta klas: bazowe 10 + DEX (założenie: bez zbroi)
+        """
+        dex_mod = self.modifier(self.z)
+
+        if self.class_name == "barbarian":
+            return 10 + dex_mod + self.modifier(self.k)
+        if self.class_name == "monk":
+            return 10 + dex_mod + self.modifier(self.m)
+
+        return 10 + dex_mod
+
+    def get_melee_attack_bonus(self):
+        """Bonus do trafienia bronią orężną (STR) + bonus biegłości."""
+        return self.get_proficiency_bonus() + self.modifier(self.s)
+
+    def get_ranged_attack_bonus(self):
+        """Bonus do trafienia bronią finezyjną/dystansową (DEX) + bonus biegłości."""
+        return self.get_proficiency_bonus() + self.modifier(self.z)
+
+    def get_spell_save_dc(self):
+        """DC rzutu obronnego na zaklęcia (tylko dla klas castujących). None jeśli nie dotyczy."""
+        ability = CASTING_ABILITY.get(self.class_name)
+        if ability is None:
+            return None
+        stat_value = getattr(self, ability)
+        return 8 + self.get_proficiency_bonus() + self.modifier(stat_value)
+
+    def get_spell_attack_bonus(self):
+        """Bonus do trafienia zaklęciem (dla klas castujących). None jeśli nie dotyczy."""
+        ability = CASTING_ABILITY.get(self.class_name)
+        if ability is None:
+            return None
+        stat_value = getattr(self, ability)
+        return self.get_proficiency_bonus() + self.modifier(stat_value)
 
     # ---------- Zbieranie featurów ----------
 
@@ -157,6 +214,15 @@ class Postac:
             f"CHA {self.c} ({self.modifier(self.c):+d})"
         )
         print(f"HP: {self.get_hp()}  (kość życia: d{HIT_DICE[self.class_name]})")
+        print(f"Atak: STR {self.get_melee_attack_bonus():+d}  |  DEX (finezja/dystans) {self.get_ranged_attack_bonus():+d}")
+        print(f"AC: {self.get_ac()}")
+        print(f"Inicjatywa: {self.modifier(self.z):+d}")
+        print(f"Bonus biegłości: +{self.get_proficiency_bonus()}")
+
+        dc = self.get_spell_save_dc()
+        if dc is not None:
+            print(f"DC rzutu obronnego na zaklęcia: {dc}  |  Atak zaklęciem: {self.get_spell_attack_bonus():+d}")
+
         print("-" * 60)
 
         if not features:
@@ -168,7 +234,16 @@ class Postac:
             f = features[idx]
             typ = "zaklęcie" if f["type"] == "spell" else "umiejętność"
             extra = f", poziom zaklęcia: {f['lvl']}" if f["lvl"] else ""
-            print(f"[{f['ch_lvl']:>2}] {f['name']}  ({typ}{extra})")
+
+            activity_labels = {
+                "passive": "pasywne",
+                "action": "akcja",
+                "bonus_action": "akcja dodatkowa",
+                "reaction": "reakcja",
+            }
+            activity = activity_labels.get(f.get("activity"), "?")
+
+            print(f"[{f['ch_lvl']:>2}] {f['name']}  ({typ}{extra}) — {activity}")
             idx += 1
 
 

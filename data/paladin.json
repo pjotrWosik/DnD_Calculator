@@ -1,32 +1,134 @@
 {
   "source_url": "https://bg3.wiki/wiki/Paladin",
   "paladin": [
-    { "name": "Divine Sense", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Lay on Hands", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Divine Smite", "ch_lvl": 2, "lvl": 1, "type": "spell" },
-    { "name": "Fighting Style", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Divine Health", "ch_lvl": 3, "lvl": null, "type": "skill" },
-    { "name": "Channel Divinity", "ch_lvl": 3, "lvl": null, "type": "skill" },
-    { "name": "Extra Attack", "ch_lvl": 5, "lvl": null, "type": "skill" },
-    { "name": "Aura of Protection", "ch_lvl": 6, "lvl": null, "type": "skill" },
-    { "name": "Aura of Courage", "ch_lvl": 10, "lvl": null, "type": "skill" },
-    { "name": "Improved Divine Smite", "ch_lvl": 11, "lvl": null, "type": "skill" }
+    {
+      "name": "Divine Sense",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "action"
+    },
+    {
+      "name": "Lay on Hands",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "action"
+    },
+    {
+      "name": "Divine Smite",
+      "ch_lvl": 2,
+      "lvl": 1,
+      "type": "spell",
+      "activity": "passive"
+    },
+    {
+      "name": "Fighting Style",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Divine Health",
+      "ch_lvl": 3,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Channel Divinity",
+      "ch_lvl": 3,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Extra Attack",
+      "ch_lvl": 5,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Aura of Protection",
+      "ch_lvl": 6,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Aura of Courage",
+      "ch_lvl": 10,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Improved Divine Smite",
+      "ch_lvl": 11,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    }
   ],
   "subclasses": {
     "oath_of_devotion": [
-      { "name": "Holy Nimbus", "ch_lvl": 1, "lvl": null, "type": "skill" }
+      {
+        "name": "Holy Nimbus",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "action"
+      }
     ],
     "oath_of_the_ancients": [
-      { "name": "Healing Radiance", "ch_lvl": 1, "lvl": null, "type": "skill" }
+      {
+        "name": "Healing Radiance",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "bonus_action"
+      }
     ],
     "oath_of_vengeance": [
-      { "name": "Abjure Enemy", "ch_lvl": 1, "lvl": null, "type": "skill" },
-      { "name": "Vow of Enmity", "ch_lvl": 1, "lvl": null, "type": "skill" }
+      {
+        "name": "Abjure Enemy",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "action"
+      },
+      {
+        "name": "Vow of Enmity",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "bonus_action"
+      }
     ],
     "oathbreaker": [
-      { "name": "Control Undead", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Dreadful Aspect", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Aura of Hate", "ch_lvl": 7, "lvl": null, "type": "skill" }
+      {
+        "name": "Control Undead",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "action"
+      },
+      {
+        "name": "Dreadful Aspect",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "action"
+      },
+      {
+        "name": "Aura of Hate",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ]
   }
 }

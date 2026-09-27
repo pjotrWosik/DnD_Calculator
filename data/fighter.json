@@ -1,28 +1,118 @@
 {
   "source_url": "https://bg3.wiki/wiki/Fighter",
   "fighter": [
-    { "name": "Fighting Style", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Second Wind", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Action Surge", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Extra Attack", "ch_lvl": 5, "lvl": null, "type": "skill" },
-    { "name": "Indomitable", "ch_lvl": 9, "lvl": null, "type": "skill" }
+    {
+      "name": "Fighting Style",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Second Wind",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "bonus_action"
+    },
+    {
+      "name": "Action Surge",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "bonus_action"
+    },
+    {
+      "name": "Extra Attack",
+      "ch_lvl": 5,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Indomitable",
+      "ch_lvl": 9,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    }
   ],
   "subclasses": {
     "battle_master": [
-      { "name": "Combat Superiority", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Maneuvers", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Know Your Enemy", "ch_lvl": 7, "lvl": null, "type": "skill" }
+      {
+        "name": "Combat Superiority",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Maneuvers",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Know Your Enemy",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "eldritch_knight": [
-      { "name": "Weapon Bond", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Spellcasting", "ch_lvl": 3, "lvl": 1, "type": "spell" },
-      { "name": "War Magic", "ch_lvl": 7, "lvl": null, "type": "skill" },
-      { "name": "Eldritch Strike", "ch_lvl": 10, "lvl": null, "type": "skill" }
+      {
+        "name": "Weapon Bond",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Spellcasting",
+        "ch_lvl": 3,
+        "lvl": 1,
+        "type": "spell",
+        "activity": "passive"
+      },
+      {
+        "name": "War Magic",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Eldritch Strike",
+        "ch_lvl": 10,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "champion": [
-      { "name": "Improved Critical", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Remarkable Athlete", "ch_lvl": 7, "lvl": null, "type": "skill" },
-      { "name": "Additional Fighting Style", "ch_lvl": 10, "lvl": null, "type": "skill" }
+      {
+        "name": "Improved Critical",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Remarkable Athlete",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Additional Fighting Style",
+        "ch_lvl": 10,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ]
   }
 }

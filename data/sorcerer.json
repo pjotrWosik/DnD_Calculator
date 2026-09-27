@@ -1,23 +1,83 @@
 {
   "source_url": "https://bg3.wiki/wiki/Sorcerer",
   "sorcerer": [
-    { "name": "Font of Magic", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Metamagic", "ch_lvl": 2, "lvl": null, "type": "skill" }
+    {
+      "name": "Font of Magic",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Metamagic",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    }
   ],
   "subclasses": {
     "draconic_bloodline": [
-      { "name": "Draconic Resilience", "ch_lvl": 1, "lvl": null, "type": "skill" },
-      { "name": "Draconic Ancestry", "ch_lvl": 1, "lvl": null, "type": "skill" },
-      { "name": "Elemental Affinity", "ch_lvl": 6, "lvl": null, "type": "skill" }
+      {
+        "name": "Draconic Resilience",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Draconic Ancestry",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Elemental Affinity",
+        "ch_lvl": 6,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "wild_magic": [
-      { "name": "Wild Magic Surge", "ch_lvl": 1, "lvl": null, "type": "skill" },
-      { "name": "Tides of Chaos", "ch_lvl": 1, "lvl": null, "type": "skill" }
+      {
+        "name": "Wild Magic Surge",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Tides of Chaos",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "storm_sorcery": [
-      { "name": "Wind Speaker", "ch_lvl": 1, "lvl": null, "type": "skill" },
-      { "name": "Heart of the Storm", "ch_lvl": 6, "lvl": null, "type": "skill" },
-      { "name": "Storm's Fury", "ch_lvl": 6, "lvl": null, "type": "skill" }
+      {
+        "name": "Wind Speaker",
+        "ch_lvl": 1,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Heart of the Storm",
+        "ch_lvl": 6,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Storm's Fury",
+        "ch_lvl": 6,
+        "lvl": null,
+        "type": "skill",
+        "activity": "reaction"
+      }
     ]
   }
 }

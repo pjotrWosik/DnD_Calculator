@@ -1,26 +1,104 @@
 {
   "source_url": "https://bg3.wiki/wiki/Rogue",
   "rogue": [
-    { "name": "Sneak Attack", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Cunning Action", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Uncanny Dodge", "ch_lvl": 5, "lvl": null, "type": "skill" },
-    { "name": "Evasion", "ch_lvl": 7, "lvl": null, "type": "skill" },
-    { "name": "Reliable Talent", "ch_lvl": 11, "lvl": null, "type": "skill" },
-    { "name": "Blindsense", "ch_lvl": 14, "lvl": null, "type": "skill" }
+    {
+      "name": "Sneak Attack",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Cunning Action",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "bonus_action"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "ch_lvl": 5,
+      "lvl": null,
+      "type": "skill",
+      "activity": "reaction"
+    },
+    {
+      "name": "Evasion",
+      "ch_lvl": 7,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Reliable Talent",
+      "ch_lvl": 11,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Blindsense",
+      "ch_lvl": 14,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    }
   ],
   "subclasses": {
     "thief": [
-      { "name": "Fast Hands", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Second-Story Work", "ch_lvl": 3, "lvl": null, "type": "skill" }
+      {
+        "name": "Fast Hands",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "bonus_action"
+      },
+      {
+        "name": "Second-Story Work",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "assassin": [
-      { "name": "Assassinate", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Infiltration Expertise", "ch_lvl": 9, "lvl": null, "type": "skill" }
+      {
+        "name": "Assassinate",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Infiltration Expertise",
+        "ch_lvl": 9,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "arcane_trickster": [
-      { "name": "Mage Hand Legerdemain", "ch_lvl": 3, "lvl": 1, "type": "spell" },
-      { "name": "Spellcasting", "ch_lvl": 3, "lvl": 1, "type": "spell" },
-      { "name": "Magical Ambush", "ch_lvl": 9, "lvl": null, "type": "skill" }
+      {
+        "name": "Mage Hand Legerdemain",
+        "ch_lvl": 3,
+        "lvl": 1,
+        "type": "spell",
+        "activity": "passive"
+      },
+      {
+        "name": "Spellcasting",
+        "ch_lvl": 3,
+        "lvl": 1,
+        "type": "spell",
+        "activity": "passive"
+      },
+      {
+        "name": "Magical Ambush",
+        "ch_lvl": 9,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ]
   }
 }

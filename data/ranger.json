@@ -1,27 +1,111 @@
 {
   "source_url": "https://bg3.wiki/wiki/Ranger",
   "ranger": [
-    { "name": "Favoured Enemy", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Natural Explorer", "ch_lvl": 1, "lvl": null, "type": "skill" },
-    { "name": "Fighting Style", "ch_lvl": 2, "lvl": null, "type": "skill" },
-    { "name": "Primeval Awareness", "ch_lvl": 3, "lvl": null, "type": "skill" },
-    { "name": "Extra Attack", "ch_lvl": 5, "lvl": null, "type": "skill" },
-    { "name": "Land's Stride", "ch_lvl": 8, "lvl": null, "type": "skill" },
-    { "name": "Hide in Plain Sight", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    {
+      "name": "Favoured Enemy",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Natural Explorer",
+      "ch_lvl": 1,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Fighting Style",
+      "ch_lvl": 2,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Primeval Awareness",
+      "ch_lvl": 3,
+      "lvl": null,
+      "type": "skill",
+      "activity": "action"
+    },
+    {
+      "name": "Extra Attack",
+      "ch_lvl": 5,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Land's Stride",
+      "ch_lvl": 8,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    },
+    {
+      "name": "Hide in Plain Sight",
+      "ch_lvl": 10,
+      "lvl": null,
+      "type": "skill",
+      "activity": "passive"
+    }
   ],
   "subclasses": {
     "hunter": [
-      { "name": "Hunter's Prey", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Defensive Tactics", "ch_lvl": 7, "lvl": null, "type": "skill" }
+      {
+        "name": "Hunter's Prey",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Defensive Tactics",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "beast_master": [
-      { "name": "Ranger's Companion", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Exceptional Training", "ch_lvl": 7, "lvl": null, "type": "skill" }
+      {
+        "name": "Ranger's Companion",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Exceptional Training",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ],
     "gloom_stalker": [
-      { "name": "Dread Ambusher", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Umbral Sight", "ch_lvl": 3, "lvl": null, "type": "skill" },
-      { "name": "Iron Mind", "ch_lvl": 7, "lvl": null, "type": "skill" }
+      {
+        "name": "Dread Ambusher",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Umbral Sight",
+        "ch_lvl": 3,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      },
+      {
+        "name": "Iron Mind",
+        "ch_lvl": 7,
+        "lvl": null,
+        "type": "skill",
+        "activity": "passive"
+      }
     ]
   }
 }
