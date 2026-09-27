@@ -1,0 +1,41 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Wizard",
+  "wizard": [
+    { "name": "Arcane Recovery", "ch_lvl": 1, "lvl": null, "type": "skill" },
+    { "name": "Scroll Scribing", "ch_lvl": 1, "lvl": 1, "type": "spell" }
+  ],
+  "subclasses": {
+    "abjuration": [
+      { "name": "Arcane Ward", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Projected Ward", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "conjuration": [
+      { "name": "Create Water", "ch_lvl": 2, "lvl": 1, "type": "spell" },
+      { "name": "Benign Transposition", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "divination": [
+      { "name": "Portent", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Expert Divination", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "enchantment": [
+      { "name": "Hypnotic Gaze", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Instinctive Charm", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "evocation": [
+      { "name": "Sculpt Spells", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Potent Cantrip", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "illusion": [
+      { "name": "Improved Minor Illusion", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "See Invisibility", "ch_lvl": 6, "lvl": 2, "type": "spell" }
+    ],
+    "necromancy": [
+      { "name": "Grim Harvest", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Undead Thralls", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "transmutation": [
+      { "name": "Experimental Alchemy", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Transmuter's Stone", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Monk",
+  "monk": [
+    { "name": "Flurry of Blows", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Patient Defense", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Step of the Wind", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Deflect Missiles", "ch_lvl": 3, "lvl": null, "type": "skill" },
+    { "name": "Extra Attack", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Stunning Strike", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Ki-Empowered Strikes", "ch_lvl": 6, "lvl": null, "type": "skill" },
+    { "name": "Evasion", "ch_lvl": 7, "lvl": null, "type": "skill" },
+    { "name": "Purity of Body", "ch_lvl": 10, "lvl": null, "type": "skill" }
+  ],
+  "subclasses": {
+    "way_of_the_open_hand": [
+      { "name": "Open Hand Technique", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Wholeness of Body", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Tranquility", "ch_lvl": 9, "lvl": null, "type": "skill" }
+    ],
+    "way_of_shadow": [
+      { "name": "Shadow Arts", "ch_lvl": 3, "lvl": 2, "type": "spell" },
+      { "name": "Shadow Step", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Cloak of Shadows", "ch_lvl": 11, "lvl": null, "type": "skill" }
+    ],
+    "way_of_the_four_elements": [
+      { "name": "Disciple of the Elements", "ch_lvl": 3, "lvl": 1, "type": "spell" }
+    ]
+  }
+}

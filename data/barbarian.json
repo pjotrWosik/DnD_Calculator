@@ -1,0 +1,40 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Barbarian",
+  "barbarian": [
+    { "name": "Rage", "ch_lvl": 1, "lvl": null, "type": "skill" },
+    { "name": "Unarmoured Defence", "ch_lvl": 1, "lvl": null, "type": "skill" },
+    { "name": "Danger Sense", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Reckless Attack", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Extra Attack", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Fast Movement", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Feral Instinct", "ch_lvl": 7, "lvl": null, "type": "skill" },
+    { "name": "Brutal Critical", "ch_lvl": 9, "lvl": null, "type": "skill" },
+    { "name": "Relentless Rage", "ch_lvl": 11, "lvl": null, "type": "skill" },
+    { "name": "Indomitable Might", "ch_lvl": 20, "lvl": null, "type": "skill" }
+  ],
+  "subclasses": {
+    "berserker": [
+      { "name": "Frenzy", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Enraged Throw", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Frenzied Strike", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Mindless Rage", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Retaliation", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ],
+    "wildheart": [
+      { "name": "Bestial Heart", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Speak with Animals", "ch_lvl": 3, "lvl": 1, "type": "spell" },
+      { "name": "Wildcry", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Land's Stride", "ch_lvl": 8, "lvl": null, "type": "skill" },
+      { "name": "Animal Aspect", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "wild_magic": [
+      { "name": "Rage: Wild Magic", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Magic Awareness", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Bolstering Magic: Boon", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Bolstering Magic: Level 1 Spell Slot", "ch_lvl": 6, "lvl": 1, "type": "spell" },
+      { "name": "Bolstering Magic: Level 2 Spell Slot", "ch_lvl": 6, "lvl": 2, "type": "spell" },
+      { "name": "Bolstering Magic: Level 3 Spell Slot", "ch_lvl": 9, "lvl": 3, "type": "spell" },
+      { "name": "Unstable Backlash", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ]
+  }
+}

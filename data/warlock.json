@@ -1,0 +1,24 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Warlock",
+  "warlock": [
+    { "name": "Eldritch Invocations", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Pact Boon", "ch_lvl": 3, "lvl": null, "type": "skill" }
+  ],
+  "subclasses": {
+    "the_fiend": [
+      { "name": "Dark One's Blessing", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Dark One's Own Luck", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Fiendish Resilience", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ],
+    "the_great_old_one": [
+      { "name": "Awakened Mind", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Mortal Shield", "ch_lvl": 6, "lvl": null, "type": "skill" },
+      { "name": "Thought Shield", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ],
+    "the_archfey": [
+      { "name": "Fey Presence", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Misty Escape", "ch_lvl": 6, "lvl": 2, "type": "spell" },
+      { "name": "Beguiling Defenses", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Fighter",
+  "fighter": [
+    { "name": "Fighting Style", "ch_lvl": 1, "lvl": null, "type": "skill" },
+    { "name": "Second Wind", "ch_lvl": 1, "lvl": null, "type": "skill" },
+    { "name": "Action Surge", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Extra Attack", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Indomitable", "ch_lvl": 9, "lvl": null, "type": "skill" }
+  ],
+  "subclasses": {
+    "battle_master": [
+      { "name": "Combat Superiority", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Maneuvers", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Know Your Enemy", "ch_lvl": 7, "lvl": null, "type": "skill" }
+    ],
+    "eldritch_knight": [
+      { "name": "Weapon Bond", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Spellcasting", "ch_lvl": 3, "lvl": 1, "type": "spell" },
+      { "name": "War Magic", "ch_lvl": 7, "lvl": null, "type": "skill" },
+      { "name": "Eldritch Strike", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ],
+    "champion": [
+      { "name": "Improved Critical", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Remarkable Athlete", "ch_lvl": 7, "lvl": null, "type": "skill" },
+      { "name": "Additional Fighting Style", "ch_lvl": 10, "lvl": null, "type": "skill" }
+    ]
+  }
+}

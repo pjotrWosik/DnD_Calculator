@@ -1,0 +1,27 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Bard",
+  "bard": [
+    { "name": "Bardic Inspiration", "ch_lvl": 1, "lvl": null, "type": "skill" },
+    { "name": "Song of Rest", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Jack of All Trades", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Expertise", "ch_lvl": 3, "lvl": null, "type": "skill" },
+    { "name": "Font of Inspiration", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Countercharm", "ch_lvl": 6, "lvl": null, "type": "skill" },
+    { "name": "Magical Secrets", "ch_lvl": 10, "lvl": null, "type": "skill" }
+  ],
+  "subclasses": {
+    "college_of_lore": [
+      { "name": "Cutting Words", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Magical Secrets (Lore)", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "college_of_valour": [
+      { "name": "Combat Inspiration", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Extra Attack", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "college_of_swords": [
+      { "name": "Blade Flourish", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Fighting Style", "ch_lvl": 3, "lvl": null, "type": "skill" },
+      { "name": "Extra Attack", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ]
+  }
+}

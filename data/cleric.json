@@ -1,0 +1,45 @@
+{
+  "source_url": "https://bg3.wiki/wiki/Cleric",
+  "cleric": [
+    { "name": "Channel Divinity", "ch_lvl": 2, "lvl": null, "type": "skill" },
+    { "name": "Destroy Undead", "ch_lvl": 5, "lvl": null, "type": "skill" },
+    { "name": "Divine Intervention", "ch_lvl": 10, "lvl": null, "type": "skill" }
+  ],
+  "subclasses": {
+    "life_domain": [
+      { "name": "Disciple of Life", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Preserve Life", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Blessed Healer", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "light_domain": [
+      { "name": "Warding Flare", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Radiance of the Dawn", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Improved Warding Flare", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "trickery_domain": [
+      { "name": "Blessing of the Trickster", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Invoke Duplicity", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Cloak of Shadows", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "knowledge_domain": [
+      { "name": "Blessings of Knowledge", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Knowledge of the Ages", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Read Thoughts", "ch_lvl": 6, "lvl": 2, "type": "spell" }
+    ],
+    "nature_domain": [
+      { "name": "Acolyte of Nature", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Charm Animals and Plants", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Dampen Elements", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "tempest_domain": [
+      { "name": "Wrath of the Storm", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Destructive Wrath", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "Thunderbolt Strike", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ],
+    "war_domain": [
+      { "name": "War Priest", "ch_lvl": 1, "lvl": null, "type": "skill" },
+      { "name": "Guided Strike", "ch_lvl": 2, "lvl": null, "type": "skill" },
+      { "name": "War God's Blessing", "ch_lvl": 6, "lvl": null, "type": "skill" }
+    ]
+  }
+}
